@@ -3,21 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>make arcade game</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game-style.css">
+    <link rel="stylesheet" href="css/cloud.css">
 
     <style>
         canvas{
             board:15px solid #000000;
-            background: linear-gradient(to bottom, #40405c 0%,#6f71aa 80%,#8a76ab 100%);
-            width:80%;
+            /*background: linear-gradient(to bottom, #40405c 0%,#6f71aa 80%,#8a76ab 100%);*/
+            width:70%;
             height: auto;
         }
     </style>
 
 </head>
 <body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
+<div id="background-wrap">
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+</div>
+    <script src="js/game-resources.js"></script>
+    <script src="js/game-app.js"></script>
+    <script src="js/game-engine.js"></script>
 </body>
 </html>
